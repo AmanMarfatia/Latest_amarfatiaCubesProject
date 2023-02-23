@@ -3,11 +3,11 @@ import sys
 from secrets import wufoo_key  # add a secrets file with wufoo_key='YoUr-WuFoo-KeY-Here'
 from requests.auth import HTTPBasicAuth
 
-# adjust this to your URL
-url = "https://comp490project.wufoo.com/api/v3/forms/2023-ultimate-frisbee-tournament/entries/json"
+
 
 
 def get_wufoo_data() -> dict:
+    url = "https://comp490project.wufoo.com/api/v3/forms/2023-ultimate-frisbee-tournament/entries/json"
     response = requests.get(url, auth=HTTPBasicAuth(wufoo_key, "pass"))
     if response.status_code != 200:  # if we don't get an ok response we have trouble
         print(
