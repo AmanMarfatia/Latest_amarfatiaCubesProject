@@ -4,7 +4,7 @@ import tkinter.font as tkFont
 class App:
     def __init__(self, root):
         #setting title
-        root.title("undefined")
+        root.title("CubeProject")
         #setting window size
         width=600
         height=500
@@ -14,188 +14,188 @@ class App:
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
 
-        GListBox_649=tk.Listbox(root)
-        GListBox_649["borderwidth"] = "1px"
+        GListBox_List=tk.Listbox(root)
+        GListBox_List["borderwidth"] = "1px"
         ft = tkFont.Font(family='Times',size=10)
-        GListBox_649["font"] = ft
-        GListBox_649["fg"] = "#333333"
-        GListBox_649["justify"] = "center"
-        GListBox_649.place(x=20,y=30,width=80,height=25)
+        GListBox_List["font"] = ft
+        GListBox_List["fg"] = "#333333"
+        GListBox_List["justify"] = "center"
+        GListBox_List.place(x=20,y=30,width=80,height=25)
 
-        GLabel_852=tk.Label(root)
+        GLabel_entryID=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_852["font"] = ft
-        GLabel_852["fg"] = "#333333"
-        GLabel_852["justify"] = "center"
-        GLabel_852["text"] = "label"
-        GLabel_852.place(x=300,y=30,width=70,height=25)
+        GLabel_entryID["font"] = ft
+        GLabel_entryID["fg"] = "#333333"
+        GLabel_entryID["justify"] = "center"
+        GLabel_entryID["text"] = "label"
+        GLabel_entryID.place(x=300,y=30,width=70,height=25)
 
-        GLabel_115=tk.Label(root)
+        GLabel_prefix=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_115["font"] = ft
-        GLabel_115["fg"] = "#333333"
-        GLabel_115["justify"] = "center"
-        GLabel_115["text"] = "label"
-        GLabel_115.place(x=440,y=30,width=70,height=25)
+        GLabel_prefix["font"] = ft
+        GLabel_prefix["fg"] = "#333333"
+        GLabel_prefix["justify"] = "center"
+        GLabel_prefix["text"] = "label"
+        GLabel_prefix.place(x=440,y=30,width=70,height=25)
 
-        GLabel_897=tk.Label(root)
+        GLabel_first_name=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_897["font"] = ft
-        GLabel_897["fg"] = "#333333"
-        GLabel_897["justify"] = "center"
-        GLabel_897["text"] = "label"
-        GLabel_897.place(x=300,y=70,width=70,height=25)
+        GLabel_first_name["font"] = ft
+        GLabel_first_name["fg"] = "#333333"
+        GLabel_first_name["justify"] = "center"
+        GLabel_first_name["text"] = "label"
+        GLabel_first_name.place(x=300,y=70,width=70,height=25)
 
-        GLabel_879=tk.Label(root)
+        GLabel_last_name=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_879["font"] = ft
-        GLabel_879["fg"] = "#333333"
-        GLabel_879["justify"] = "center"
-        GLabel_879["text"] = "label"
-        GLabel_879.place(x=440,y=70,width=70,height=25)
+        GLabel_last_name["font"] = ft
+        GLabel_last_name["fg"] = "#333333"
+        GLabel_last_name["justify"] = "center"
+        GLabel_last_name["text"] = "label"
+        GLabel_last_name.place(x=440,y=70,width=70,height=25)
 
-        GLabel_765=tk.Label(root)
+        GLabel_logo=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_765["font"] = ft
-        GLabel_765["fg"] = "#333333"
-        GLabel_765["justify"] = "center"
-        GLabel_765["text"] = "label"
-        GLabel_765.place(x=300,y=110,width=70,height=25)
+        GLabel_logo["font"] = ft
+        GLabel_logo["fg"] = "#333333"
+        GLabel_logo["justify"] = "center"
+        GLabel_logo["text"] = "label"
+        GLabel_logo.place(x=300,y=110,width=70,height=25)
 
-        GLabel_350=tk.Label(root)
+        GLabel_team_name=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_350["font"] = ft
-        GLabel_350["fg"] = "#333333"
-        GLabel_350["justify"] = "center"
-        GLabel_350["text"] = "label"
-        GLabel_350.place(x=300,y=160,width=70,height=25)
+        GLabel_team_name["font"] = ft
+        GLabel_team_name["fg"] = "#333333"
+        GLabel_team_name["justify"] = "center"
+        GLabel_team_name["text"] = "label"
+        GLabel_team_name.place(x=300,y=160,width=70,height=25)
 
-        GLabel_982=tk.Label(root)
+        GLabel_email=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_982["font"] = ft
-        GLabel_982["fg"] = "#333333"
-        GLabel_982["justify"] = "center"
-        GLabel_982["text"] = "label"
-        GLabel_982.place(x=300,y=200,width=70,height=25)
+        GLabel_email["font"] = ft
+        GLabel_email["fg"] = "#333333"
+        GLabel_email["justify"] = "center"
+        GLabel_email["text"] = "label"
+        GLabel_email.place(x=300,y=200,width=70,height=25)
 
-        GLabel_663=tk.Label(root)
+        GLabel_jersey_Color=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_663["font"] = ft
-        GLabel_663["fg"] = "#333333"
-        GLabel_663["justify"] = "center"
-        GLabel_663["text"] = "label"
-        GLabel_663.place(x=300,y=250,width=70,height=25)
+        GLabel_jersey_Color["font"] = ft
+        GLabel_jersey_Color["fg"] = "#333333"
+        GLabel_jersey_Color["justify"] = "center"
+        GLabel_jersey_Color["text"] = "label"
+        GLabel_jersey_Color.place(x=300,y=250,width=70,height=25)
 
-        GLabel_981=tk.Label(root)
+        GLabel_phone_number=tk.Label(root)
         ft = tkFont.Font(family='Times',size=10)
-        GLabel_981["font"] = ft
-        GLabel_981["fg"] = "#333333"
-        GLabel_981["justify"] = "center"
-        GLabel_981["text"] = "label"
-        GLabel_981.place(x=300,y=290,width=70,height=25)
+        GLabel_phone_number["font"] = ft
+        GLabel_phone_number["fg"] = "#333333"
+        GLabel_phone_number["justify"] = "center"
+        GLabel_phone_number["text"] = "label"
+        GLabel_phone_number.place(x=300,y=290,width=70,height=25)
 
-        GCheckBox_511=tk.Checkbutton(root)
+        GCheckBox_coach=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_511["font"] = ft
-        GCheckBox_511["fg"] = "#333333"
-        GCheckBox_511["justify"] = "center"
-        GCheckBox_511["text"] = "CheckBox"
-        GCheckBox_511.place(x=450,y=120,width=70,height=25)
-        GCheckBox_511["offvalue"] = "0"
-        GCheckBox_511["onvalue"] = "1"
-        GCheckBox_511["command"] = self.GCheckBox_511_command
+        GCheckBox_coach["font"] = ft
+        GCheckBox_coach["fg"] = "#333333"
+        GCheckBox_coach["justify"] = "center"
+        GCheckBox_coach["text"] = "CheckBox"
+        GCheckBox_coach.place(x=450,y=120,width=70,height=25)
+        GCheckBox_coach["offvalue"] = "0"
+        GCheckBox_coach["onvalue"] = "1"
+        GCheckBox_coach["command"] = self.GCheckBox_coach_command
 
-        GCheckBox_431=tk.Checkbutton(root)
+        GCheckBox_head_coach=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_431["font"] = ft
-        GCheckBox_431["fg"] = "#333333"
-        GCheckBox_431["justify"] = "center"
-        GCheckBox_431["text"] = "CheckBox"
-        GCheckBox_431.place(x=450,y=160,width=70,height=25)
-        GCheckBox_431["offvalue"] = "0"
-        GCheckBox_431["onvalue"] = "1"
-        GCheckBox_431["command"] = self.GCheckBox_431_command
+        GCheckBox_head_coach["font"] = ft
+        GCheckBox_head_coach["fg"] = "#333333"
+        GCheckBox_head_coach["justify"] = "center"
+        GCheckBox_head_coach["text"] = "CheckBox"
+        GCheckBox_head_coach.place(x=450,y=160,width=70,height=25)
+        GCheckBox_head_coach["offvalue"] = "0"
+        GCheckBox_head_coach["onvalue"] = "1"
+        GCheckBox_head_coach["command"] = self.GCheckBox_head_coach_command
 
-        GCheckBox_29=tk.Checkbutton(root)
+        GCheckBox_waterboys=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_29["font"] = ft
-        GCheckBox_29["fg"] = "#333333"
-        GCheckBox_29["justify"] = "center"
-        GCheckBox_29["text"] = "CheckBox"
-        GCheckBox_29.place(x=450,y=200,width=70,height=25)
-        GCheckBox_29["offvalue"] = "0"
-        GCheckBox_29["onvalue"] = "1"
-        GCheckBox_29["command"] = self.GCheckBox_29_command
+        GCheckBox_waterboys["font"] = ft
+        GCheckBox_waterboys["fg"] = "#333333"
+        GCheckBox_waterboys["justify"] = "center"
+        GCheckBox_waterboys["text"] = "CheckBox"
+        GCheckBox_waterboys.place(x=450,y=200,width=70,height=25)
+        GCheckBox_waterboys["offvalue"] = "0"
+        GCheckBox_waterboys["onvalue"] = "1"
+        GCheckBox_waterboys["command"] = self.GCheckBox_waterboys_command
 
-        GCheckBox_730=tk.Checkbutton(root)
+        GCheckBox_doctor=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_730["font"] = ft
-        GCheckBox_730["fg"] = "#333333"
-        GCheckBox_730["justify"] = "center"
-        GCheckBox_730["text"] = "CheckBox"
-        GCheckBox_730.place(x=450,y=240,width=70,height=25)
-        GCheckBox_730["offvalue"] = "0"
-        GCheckBox_730["onvalue"] = "1"
-        GCheckBox_730["command"] = self.GCheckBox_730_command
+        GCheckBox_doctor["font"] = ft
+        GCheckBox_doctor["fg"] = "#333333"
+        GCheckBox_doctor["justify"] = "center"
+        GCheckBox_doctor["text"] = "CheckBox"
+        GCheckBox_doctor.place(x=450,y=240,width=70,height=25)
+        GCheckBox_doctor["offvalue"] = "0"
+        GCheckBox_doctor["onvalue"] = "1"
+        GCheckBox_doctor["command"] = self.GCheckBox_doctor_command
 
-        GCheckBox_778=tk.Checkbutton(root)
+        GCheckBox_eighteen_thru_thirty=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_778["font"] = ft
-        GCheckBox_778["fg"] = "#333333"
-        GCheckBox_778["justify"] = "center"
-        GCheckBox_778["text"] = "CheckBox"
-        GCheckBox_778.place(x=450,y=280,width=70,height=25)
-        GCheckBox_778["offvalue"] = "0"
-        GCheckBox_778["onvalue"] = "1"
-        GCheckBox_778["command"] = self.GCheckBox_778_command
+        GCheckBox_eighteen_thru_thirty["font"] = ft
+        GCheckBox_eighteen_thru_thirty["fg"] = "#333333"
+        GCheckBox_eighteen_thru_thirty["justify"] = "center"
+        GCheckBox_eighteen_thru_thirty["text"] = "CheckBox"
+        GCheckBox_eighteen_thru_thirty.place(x=450,y=280,width=70,height=25)
+        GCheckBox_eighteen_thru_thirty["offvalue"] = "0"
+        GCheckBox_eighteen_thru_thirty["onvalue"] = "1"
+        GCheckBox_eighteen_thru_thirty["command"] = self.GCheckBox_eighteen_thru_thirty_command
 
-        GCheckBox_295=tk.Checkbutton(root)
+        GCheckBox_thrity_thru_forty=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_295["font"] = ft
-        GCheckBox_295["fg"] = "#333333"
-        GCheckBox_295["justify"] = "center"
-        GCheckBox_295["text"] = "CheckBox"
-        GCheckBox_295.place(x=450,y=320,width=70,height=25)
-        GCheckBox_295["offvalue"] = "0"
-        GCheckBox_295["onvalue"] = "1"
-        GCheckBox_295["command"] = self.GCheckBox_295_command
+        GCheckBox_thrity_thru_forty["font"] = ft
+        GCheckBox_thrity_thru_forty["fg"] = "#333333"
+        GCheckBox_thrity_thru_forty["justify"] = "center"
+        GCheckBox_thrity_thru_forty["text"] = "CheckBox"
+        GCheckBox_thrity_thru_forty.place(x=450,y=320,width=70,height=25)
+        GCheckBox_thrity_thru_forty["offvalue"] = "0"
+        GCheckBox_thrity_thru_forty["onvalue"] = "1"
+        GCheckBox_thrity_thru_forty["command"] = self.GCheckBox_thrity_thru_forty_command
 
-        GCheckBox_10=tk.Checkbutton(root)
+        GCheckBox_forty_thru_fifty=tk.Checkbutton(root)
         ft = tkFont.Font(family='Times',size=10)
-        GCheckBox_10["font"] = ft
-        GCheckBox_10["fg"] = "#333333"
-        GCheckBox_10["justify"] = "center"
-        GCheckBox_10["text"] = "CheckBox"
-        GCheckBox_10.place(x=450,y=360,width=70,height=25)
-        GCheckBox_10["offvalue"] = "0"
-        GCheckBox_10["onvalue"] = "1"
-        GCheckBox_10["command"] = self.GCheckBox_10_command
+        GCheckBox_forty_thru_fifty["font"] = ft
+        GCheckBox_forty_thru_fifty["fg"] = "#333333"
+        GCheckBox_forty_thru_fifty["justify"] = "center"
+        GCheckBox_forty_thru_fifty["text"] = "CheckBox"
+        GCheckBox_forty_thru_fifty.place(x=450,y=360,width=70,height=25)
+        GCheckBox_forty_thru_fifty["offvalue"] = "0"
+        GCheckBox_forty_thru_fifty["onvalue"] = "1"
+        GCheckBox_forty_thru_fifty["command"] = self.GCheckBox_forty_thru_fifty_command
 
-    def GCheckBox_511_command(self):
+    def GCheckBox_coach_command(self):
         print("command")
 
 
-    def GCheckBox_431_command(self):
+    def GCheckBox_head_coach_command(self):
         print("command")
 
 
-    def GCheckBox_29_command(self):
+    def GCheckBox_waterboys_command(self):
         print("command")
 
 
-    def GCheckBox_730_command(self):
+    def GCheckBox_doctor_command(self):
         print("command")
 
 
-    def GCheckBox_778_command(self):
+    def GCheckBox_eighteen_thru_thirty_command(self):
         print("command")
 
 
-    def GCheckBox_295_command(self):
+    def GCheckBox_thrity_thru_forty_command(self):
         print("command")
 
 
-    def GCheckBox_10_command(self):
+    def GCheckBox_forty_thru_fifty_command(self):
         print("command")
 
 if __name__ == "__main__":
