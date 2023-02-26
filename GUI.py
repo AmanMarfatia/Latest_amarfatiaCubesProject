@@ -4,7 +4,7 @@ import tkinter.font as tkFont
 class App:
     def __init__(self, root):
         #setting title
-        root.title("CubeProject")
+        root.title("CubesProject")
         #setting window size
         width=600
         height=500
