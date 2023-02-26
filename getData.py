@@ -1,6 +1,6 @@
 import requests
 import sys
-from secrets import wufoo_key  # add a secrets file with wufoo_key='YoUr-WuFoo-KeY-Here'
+from secrets import wufoo_key
 from requests.auth import HTTPBasicAuth
 
 
