@@ -1,9 +1,7 @@
 import requests
 import sys
-from secrets import wufoo_key
+import secrets
 from requests.auth import HTTPBasicAuth
-
-
 
 
 def get_wufoo_data() -> dict:

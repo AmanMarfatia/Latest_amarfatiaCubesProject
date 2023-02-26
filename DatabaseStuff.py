@@ -31,7 +31,7 @@ def create_entries_table(cursor: sqlite3.Cursor):
     waterboys TEXT,
     doctor TEXT,
     eighteen_thru_thirty TEXT,
-    thrity_thru_forty TEXT,
+    thirty_thru_forty TEXT,
     forty_thru_fifty TEXT,
     created_date TEXT,
     created_by TEXT);"""

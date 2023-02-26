@@ -29,23 +29,23 @@ def prepare_result(data):
                 "prefix": entry[1],
                 "first_name": entry[2],
                 "last_name": entry[3],
-                "title": entry[4],
-                "org": entry[5],
+                "logo": entry[4],
+                "team_name": entry[5],
                 "email": entry[6],
-                "website": entry[7],
-                "course_project": True
-                if len(entry[8]) > 0
+                "jersey_color": entry[7],
+                "phone_number": entry[8],
+             #   "": entry[6],
+              #  "website": entry[7],
+                "coach": True
+                if len(entry[9]) > 0
                 else False,  # inline if to assign true if the string was not ''
-                "guest_speaker": True if len(entry[9]) > 0 else False,
-                "site_visit": True if len(entry[10]) > 0 else False,
-                "job_shadow": True if len(entry[11]) > 0 else False,
-                "internship": True if len(entry[12]) > 0 else False,
-                "career_panel": True if len(entry[13]) > 0 else False,
-                "networking_event": True if len(entry[14]) > 0 else False,
-                "subject_area": entry[15],
-                "description": entry[16],
-                "funding": entry[17],
-                "created_date": entry[18],
+                "head_coach": True if len(entry[10]) > 0 else False,
+                "waterboys": True if len(entry[11]) > 0 else False,
+                "doctor": True if len(entry[12]) > 0 else False,
+                "eighteen_thru_thirty": True if len(entry[13]) > 0 else False,
+                "thirty_thru_forty": True if len(entry[14]) > 0 else False,
+                "forty_thru_fifty": True if len(entry[15]) > 0 else False,
+
             }
         )
     return result
