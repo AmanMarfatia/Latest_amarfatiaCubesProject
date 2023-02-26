@@ -12,18 +12,10 @@ You may have to change it to work with yours.
 
 You need These files (most of the requirements.txt is for the grad students, you only need requests in there)
 - getData.py
-- msin.py
+- main.py
 - DatabaseStuff.py
 - and the tests in testSprint2.py
 run the demo by running main.py
-
-##Graduate Students
-You need all the files from the undergraduate version and
-- serverDB.py
-- cubes-api.py
-
-To run the server run
--  uvicorn cubes-api:app --reload
 
 
 
