@@ -25,7 +25,7 @@ class Application:
         GLabel_entryID["font"] = ft
         GLabel_entryID["fg"] = "#333333"
         GLabel_entryID["justify"] = "center"
-        GLabel_entryID["text"] = "label"
+        GLabel_entryID["text"] = "EntryID"
         GLabel_entryID.place(x=300,y=30,width=70,height=25)
 
         GLabel_prefix=tk.Label(root)
@@ -198,5 +198,5 @@ class Application:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = App(root)
+    app = Application(root)
     root.mainloop()
