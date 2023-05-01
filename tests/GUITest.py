@@ -2,10 +2,6 @@ import GUI
 from PySide6 import QtCore
 
 def test_entry_selected(qtbot):  # using qubot requires the pytest-qt plugin (I added it to requirements.txt)
-    """this test was built using
-    https://stackoverflow.com/questions/58136462/selecting-qlistwidgetitem-with-qtbot-mouseclick
-    and
-    https://pytest-qt.readthedocs.io/en/latest/tutorial.html"""
     window = GUI.WuFooEntriesWindow()
     window.show()
     qtbot.addWidget(window)
