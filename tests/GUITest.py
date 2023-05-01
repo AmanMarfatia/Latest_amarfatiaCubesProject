@@ -3,7 +3,7 @@ from PySide6 import QtCore
 
 
 def test_entry_selected(qtbot):  # using qubot requires the pytest-qt plugin (I added it to requirements.txt)
-    window = GUI.WuFooForm()
+    window = GUI.App()
     window.show()
     qtbot.addWidget(window)
     row = 9  # assume 0 start, get 10th item change to update test
