@@ -191,35 +191,35 @@ class App:
         GCheckBox_554["command"] = self.GCheckBox_554_command
 
     def GCheckBox_511_command(self):
-        print("command")
+        print("Coach")
 
 
     def GCheckBox_431_command(self):
-        print("command")
+        print("Head Coach")
 
 
     def GCheckBox_29_command(self):
-        print("command")
+        print("WaterBoy")
 
 
     def GCheckBox_730_command(self):
-        print("command")
+        print("Doctor")
 
 
     def GCheckBox_778_command(self):
-        print("command")
+        print("19-25")
 
 
     def GCheckBox_295_command(self):
-        print("command")
+        print("25-30")
 
 
     def GCheckBox_10_command(self):
-        print("command")
+        print("30-40")
 
 
     def GCheckBox_554_command(self):
-        print("command")
+        print("40-50")
 
 if __name__ == "__main__":
     root = tk.Tk()
