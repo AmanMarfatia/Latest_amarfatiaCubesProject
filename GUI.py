@@ -221,6 +221,9 @@ class App:
     def GCheckBox_554_command(self):
         print("40-50")
 
+
+
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
