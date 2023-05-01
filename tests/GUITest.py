@@ -11,7 +11,7 @@ def test_entry_selected(qtbot):  # using qubot requires the pytest-qt plugin (I 
     rectangle = window.list_control.visualItemRect(target_item)
     click_point = rectangle.center()
     qtbot.mouseClick(window.list_control.viewport(), QtCore.Qt.LeftButton, pos=click_point)
-    assert window.prefix_box.text() == "Mrs."
-    assert window.title_box.text() == "Ate"
+    assert window.prefix_box.text() == "Mr."
+    assert window.title_box.text() == "Project"
     assert window.project_check.isChecked() is True
     assert window.visit_check.isChecked() is False
