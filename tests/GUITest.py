@@ -1,6 +1,7 @@
 import GUI
 from PySide6 import QtCore
 
+
 def test_entry_selected(qtbot):  # using qubot requires the pytest-qt plugin (I added it to requirements.txt)
     window = GUI.WuFooEntriesWindow()
     window.show()
