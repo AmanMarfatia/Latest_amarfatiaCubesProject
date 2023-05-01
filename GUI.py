@@ -190,33 +190,26 @@ class App:
         GCheckBox_554["onvalue"] = "1"
         GCheckBox_554["command"] = self.GCheckBox_554_command
 
-    def GCheckBox_511_command(self):
+    def GCheckBox_511_command(self): #coach
         print("Coach")
 
-
-    def GCheckBox_431_command(self):
+    def GCheckBox_431_command(self): #Head Coach
         print("Head Coach")
 
-
-    def GCheckBox_29_command(self):
+    def GCheckBox_29_command(self): #waterboy
         print("WaterBoy")
 
-
-    def GCheckBox_730_command(self):
+    def GCheckBox_730_command(self): #doctor
         print("Doctor")
 
-
-    def GCheckBox_778_command(self):
+    def GCheckBox_778_command(self): #19-25
         print("19-25")
 
-
-    def GCheckBox_295_command(self):
+    def GCheckBox_295_command(self): #25-30
         print("25-30")
 
-
-    def GCheckBox_10_command(self):
+    def GCheckBox_10_command(self): #output 30-40
         print("30-40")
-
 
     def GCheckBox_554_command(self):
         print("40-50")

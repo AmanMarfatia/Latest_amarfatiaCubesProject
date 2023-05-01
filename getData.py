@@ -28,7 +28,7 @@ def save_data(data_to_save: list, save_file=None):
             print(f"{key}: {value}", file=save_file)
         # now print the spacer
         print(
-            "\n_______________________________________________",
+            "_______________________________________________",
             file=save_file,
         )
 
